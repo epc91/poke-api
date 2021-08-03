@@ -95,3 +95,8 @@ p {
   grid-template-columns: 1fr 2fr;
   text-align: left;
 }
+
+img {
+  width: 40%;
+  height: 40%;
+}

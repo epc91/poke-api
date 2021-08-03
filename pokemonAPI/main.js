@@ -46,15 +46,18 @@ function createPokemon(pokemon) {
     const typeOne = document.createElement('p')
     typeOne.textContent = pokemon.types[0].type.name
 
-    const typeTwo = document.createElement('p')
-    typeTwo.textContent = pokemon.types[1].type.name
+    // const typeTwo = document.createElement('p')
+    // if (pokemon.types[1].type.name) {
+    //     typeTwo.textContent = pokemon.types[1].type.name
+    // }
+    
 
     // Add Elements To Card
     card.appendChild(spriteContainer)
     card.appendChild(number)
     card.appendChild(name)
     card.appendChild(typeOne)
-    card.appendChild(typeTwo)
+    // card.appendChild(typeTwo)
 
     pokemonContainer.appendChild(card)
 }
