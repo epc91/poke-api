@@ -14,7 +14,7 @@ function fetchPokemon(id) {
 // Group Of Pokemons
 function fecthPokemons(number) {
     for (let i = 1; i <= number; i++) {
-        fetchPokemon(i)
+        fetchPokemon(Math.floor(Math.random() * 890))
     }
 }
 
@@ -44,4 +44,4 @@ function createPokemon(pokemon) {
     pokemonContainer.appendChild(card)
 }
 
-fecthPokemons(9)
+fecthPokemons(6)
